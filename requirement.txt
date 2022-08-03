@@ -1,0 +1,7 @@
+streamlit as st
+pandas
+requests
+geopandas
+plotly
+numpy
+altair
