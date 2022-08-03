@@ -33,7 +33,7 @@ st.markdown('<div style="text-align: justify;">Dapat dilihat bahwa semenjak pert
 " "
 
 st.markdown("**Inflasi di Inggris**")
-st.markdown('<div style="text-align: justify;">Tidak hanya di Amerika Serikat, tetapi inflasi rupanya juga menjadi salah satu topik hangat di Inggris. Salah satu tweet berisi berita yang dilansir oleh @cnbcindonesia menunjukkan bahwa harga burger McDonalds mengalami kenaikan sebesar 20%. Kenaikan ini merupakan salah satu kenaikan yang menghebohkan publik dikarenakan burger McDonald tersebut mengalami kenaikan harga setelah berada pada harga yang sama selama 14 tahun.</div>', unsafe_allow_html=True)
+st.markdown('<div style="text-align: justify;">Tidak hanya di Amerika Serikat, tetapi inflasi rupanya juga menjadi salah satu topik hangat di Inggris. Salah satu tweet berisi berita yang dilansir oleh @cnbcindonesia menunjukkan bahwa harga burger McDonalds mengalami kenaikan sebesar 20%. Kenaikan ini merupakan salah satu kenaikan yang menghebohkan publik dikarenakan burger McDonalds tersebut mengalami kenaikan harga setelah berada pada harga yang sama selama 14 tahun.</div>', unsafe_allow_html=True)
 " "
 
 class Tweet(object):
