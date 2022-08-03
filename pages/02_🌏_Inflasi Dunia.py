@@ -57,7 +57,7 @@ with topinf1:
     top_10_high
 with topinf2:
     st.write(alt.Chart(bar_chart_high).mark_bar().encode(
-        x = tahun_store,
+        x = alt.X(tahun_store, title = "Inflasi dalam %"),
         y = alt.Y("Country Name", sort = '-x'),
         color=alt.value('#FFDB58')))
 
