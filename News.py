@@ -97,7 +97,7 @@ st.markdown('<div style="text-align: justify;">Ternyata, meskipun inflasi di Ind
 t = Tweet("https://twitter.com/Istyanyan/status/1552636051440963585/").component()
 
 st.markdown("---")
-"Untuk mengetahui lebih lanjut mengenai inflasi Indonesia di bulan Juli, pergilah ke halaman 🔴 Inflasi Indonesia"
-"Untuk mengetahui lebih lanjut mengenai inflasi di dunia hingga 2021, pergilah ke halaman 🌏 Inflasi Dunia"
+st.write("Ingin mengetahui lebih lanjut mengenai inflasi Indonesia di bulan Juli🤔? [Klik di sini](https://zetnitsun-projects-news-rb6m9g.streamlitapp.com/Inflasi_Indonesia)")
+st.write("Ingin mengetahui lebih lanjut mengenai inflasi di dunia hingga 2021👀? [Klik di sini](https://zetnitsun-projects-news-rb6m9g.streamlitapp.com/Inflasi_Dunia)")
 information = st.sidebar.markdown("_This streamlit app is made by Jessica Zerlina Sarwono as a capstone project for Tetris Program Batch 2_")
 
