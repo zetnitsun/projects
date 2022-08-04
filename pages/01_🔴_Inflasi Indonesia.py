@@ -51,7 +51,7 @@ if st.button('Kilk untuk Mengetahui Hubungan Inflasi dengan IHSG'):
      corr = np.corrcoef(indo_data['Inflasi'],indo_data['Persen Perubahan pada IHSG'])
      st.line_chart(indo_data)
      "_Sumber: https://www.bi.go.id/ dan https://www.investing.com/_"
-     st.write("Koefisien korelasi spearman: ",corr[0,1])
+     st.write("Koefisien korelasi pearson: ",corr[0,1])
      st.markdown('<div style="text-align: justify;">Ternyata, didapat bahwa korelasi antara inflasi di Indonesia dengan IHSG bulanan mendekati 0 atau nyaris tidak ada korelasi. Hal ini berarti bahwa nilai dari IHSG ternyata tidak akan semata-mata terpengaruh oleh inflasi secara umum, tetapi analisis perlu dilakukan lebih lanjut pada komoditas masing-masing pada pasar modal. Oleh karena itu, apabila Anda merupakan trader dalam pasar modal, alangkah baiknya menganalisis lebih lanjut mengenai saham dari komoditas dalam pasar modal dan tidak panik terlebih dahulu ketika melihat kondisi inflasi yang ada dalam masyarakat.</div>', unsafe_allow_html=True)
 
 
